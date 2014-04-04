@@ -1,11 +1,7 @@
 NGINX access log parser
 ================================
-[![Build Status](https://travis-ci.org/richardasaurus/nginx-access-log-parser.png?branch=master)](https://travis-ci.org/richardasaurus/nginx-access-log-parser)
+forked from richardasaurus/nginx-access-log-parser
 
-This python script parses an NGINX access log and counts the total occurrences of a chosen item within the logs and outputs a dictionary.
+count urls' pv apart from ignored files(eg. css)
 
-In the example.log it processes the "requested file/page" segment, this can be changed to any other segment of the log.
-
-The output is useful when serving media assets as you can serve assets from source and calculate view counts periodically from the NGINX logs using this parser.
-
-Note: if you log files are not in standard format the find() function will need editing accordingly.
+print a little bit beautifully
